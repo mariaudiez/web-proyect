@@ -233,6 +233,12 @@ P {
     padding-bottom: 100px;
 }
 
+.carrusel_3:hover{
+    color: black;
+    opacity: 100%;
+    transition: 0.3s ease;
+}
+
 .carrusel_3 {
     display: flex;
     flex-direction: row;
@@ -240,6 +246,7 @@ P {
     justify-content: flex-start;
     flex-wrap: wrap;
     padding-bottom: 8%;
+    opacity: 85%;
 }
 
 .carrusel_3 > div {
@@ -297,6 +304,12 @@ P {
     justify-content: flex-end;
 }
 
+.carrusel_4:hover{
+    color: black;
+    opacity: 100%;
+    transition: 0.3s ease;
+}
+
 .carrusel_4 {
     display: flex;
     flex-direction: row;
@@ -304,6 +317,7 @@ P {
     justify-content: flex-start;
     flex-wrap: wrap;
     padding-bottom: 8%;
+    opacity: 85%;
 }
 
 .carrusel_4 > div {
