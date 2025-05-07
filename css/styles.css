@@ -1,0 +1,515 @@
+@font-face {
+    font-family: Inter;
+    src: url("fonts/inter.ttf");
+    font-family: Monsieur;
+    src: url("fonts/MonsieurLaDoulaise-Regular.ttf")
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#menu{
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    padding-bottom: 2em;
+    background-color: white;
+}
+
+#menu > ul {
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    align-items: center;
+}
+
+#menu > ul > li {
+    list-style: none;
+}
+
+#menu > ul > li > a {
+    font-family: Inter;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+
+#menu > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://ik.imagekit.io/mariaudiez/Video%20homepage.mov/ik-video.mp4?updatedAt=1746622620890);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+    font-family: Monsieur La Doulaise;
+    font-size: 20vw;
+    text-align: center;
+    font-weight: 100;
+}
+
+footer {
+    padding-top: 3em;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    align-items: center;
+}
+
+footer > ul > li {
+    list-style: none;
+}
+
+footer > ul > li > a {
+    font-family: Inter;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+
+footer > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+
+/* PROJECTS */
+
+h2 {
+    font-family: Inter;
+    font-weight: 400;
+    padding-bottom: 1em;
+    font-size: 3vw;
+}
+
+#painting {
+    margin: 2em;
+}
+
+.fila {
+    display: flex;
+    width: 100%;
+}
+
+.fila > div img {
+    width: 97%;
+    padding-bottom: 1em;
+}
+
+.fila > div p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+
+#graphic_design {
+    margin: 2em;
+}
+
+.fila1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.fila1 img {
+    width: 49%;
+    padding-bottom: 2em;
+    
+}
+
+.fila2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.fila2 img {
+    width: 49%;
+    padding-bottom: 2em;
+    
+}
+.fila3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.fila3 img {
+    width: 49%;
+    padding-bottom: 2em;
+    
+}
+
+.fila4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.fila4 img {
+    width: 49%;
+    padding-bottom: 2em;
+    
+}
+
+.fila5 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.fila5 img {
+    width: 49%;
+    padding-bottom: 2em;
+    
+}
+
+
+.fila6 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.fila6 img {
+    width: 32%;
+    padding-bottom: 2em;
+}
+
+.fila7 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.fila7 img {
+    width: 32%;
+    padding-bottom: 2em;
+}
+
+.fila8 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.fila8 img {
+    width: 32%;
+    padding-bottom: 2em;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/* ABOUT */
+#titulo img {
+    height: 50%;
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+#informacion {
+    font-family: Inter;
+    font-weight: 400;
+    margin: 2em;
+    padding-bottom: 3em;
+}
+
+#informacion h3 {
+    font-size: 3vw;
+}
+
+#informacion p {
+    font-size: 1.5vw;
+    padding-top: 1.5em;
+}
+
+
+/* CONTACTO  */
+#redes {
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    flex-direction: row;
+}
+
+#redes > a {
+    align-items: center;
+    font-family: Inter;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+
+
+#redes > a:hover {
+    text-decoration: underline;
+}
+
+.formulario div:first-child div{
+    border: 1px solid black;
+    padding: 1%;
+    border-radius: 13px;
+}
+.formulario div:first-child div h5 {
+    font-family: Inter;
+    color: rgb(176, 176, 176);
+}
+
+.formulario {
+    padding: 6%;
+}
+
+.formulario h5 {
+    padding: 1.5% 0;
+}
+
+.formulario div div h5 {
+    color: black;
+}
+
+.formulario div h4 {
+    padding: 2% 0;
+    font-size: 5vw;
+}
+
+.formulario div:last-child div:last-child {
+    margin-top: 1.5%;
+}
+
+.formulario div:first-child div:last-child {
+    height: 30vh;
+}
+
+.buttonform {
+    border-radius: 13px;
+    border: 0.5px solid white;
+    height: 5vh;
+    background-color: black;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario div:last-child div h4 {
+    font-weight: 300;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+
+.buttonform h4 {
+    color: white;
+}
+
+.buttonform:hover {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.formulario div:last-child div h4:hover {
+    color: black;
+}
+
+.formulario h4, h5 {
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.map {
+    width: 100%;
+    padding: 0;
+}
+
+@media only screen and (max-width:1024px) {
+    #menu{
+        padding-bottom: 0em;
+    }
+
+    #menu > ul {
+        margin: 2em 2em 0em 2em;
+    }
+    
+}
+
+@media only screen and (max-width:512px) {
+    #menu{
+        padding-bottom: 0em;
+    }
+
+    #menu > ul {
+        margin: 0em 2em 0em 2em;
+    }
+
+    #menu > ul > li > a {
+        font-size: 1em;
+    }
+
+    footer > ul > li > a {
+        font-size: 1em;
+    }
+
+    #titulo img {
+        padding-bottom: 1em;
+    }
+    
+    #informacion {
+        margin: 0em 2em 0em 2em;
+        padding-bottom: 2em;
+    }
+    
+    #informacion h3 {
+        font-size: 1.5em;
+    }
+    
+    #informacion p {
+        font-size: 1em;
+        padding-top: 1em;
+    }
+
+    #redes {
+        margin: 0em 2em 0em 2em;
+        height: 0;
+    }
+
+    #redes > a {
+        font-size: 1em;
+    }
+
+    h2 {
+        padding-bottom: 0.5em;
+        font-size: 1em;
+    }
+
+    .fila {
+        flex-direction: column;
+    }
+    
+    .fila > div img {
+        padding-bottom: 0.2em;
+    }
+    
+    .fila > div p {
+        font-size: 0.5em;
+        padding-bottom: 1.3em;
+    }
+    
+    
+    #graphic_design {
+        margin: 0em 2em 0em 2em;
+    }
+    
+    .fila1 {
+        flex-direction: column;
+    }
+    
+    .fila1 img {
+        width: 100%;
+        padding-bottom: 1em;
+    }
+    
+    .fila2 {
+        flex-direction: column;
+    }
+    
+    .fila2 img {
+        width: 100%;
+        padding-bottom: 1em;
+    }
+    
+    .fila3 {
+        flex-direction: column;
+    }
+    
+    .fila3 img {
+        width: 100%;
+        padding-bottom: 1em;
+    }
+
+    .fila4 {
+        flex-direction: column;
+    }
+    
+    .fila4 img {
+        width: 100%;
+        padding-bottom: 1em;
+    }
+
+    .fila5 {
+        flex-direction: column;
+    }
+    
+    .fila5 img {
+        width: 100%;
+        padding-bottom: 1em;
+    }
+
+    .fila6 {
+        flex-direction: column;
+    }
+    
+    .fila6 img {
+        width: 100%;
+        padding-bottom: 1em;
+    }
+    
+    .fila7 {
+        flex-direction: column;
+    }
+    
+    .fila7 img {
+        width: 100%;
+        padding-bottom: 1em;
+    }
+
+    .fila8 {
+        flex-direction: column;
+    }
+    
+    .fila8 img {
+        width: 100%;
+        padding-bottom: 1em;
+    }
+    
+    .video {
+        width: auto;
+        height: 100vw;
+    }
+    
+}
+
