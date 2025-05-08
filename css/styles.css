@@ -9,7 +9,6 @@
 .newsreader {
     font-family: "Newsreader", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
   }
 
@@ -22,18 +21,30 @@
 
 body{
     height: 100%;
+    
+}
+nav{
+    position: absolute;
 }
 
+.homepage{
+    position: absolute;
+    height: auto;
+    width: 120%;
+    z-index: -100;
+    display: flex;
+    padding: auto;
+    position: fixed;
+}
 #menu{
     z-index: 9999;
     position: sticky;
     top: 0;
     padding-bottom: 2em;
-    background-color: white;
 }
 
 #menu > ul {
-    height: 4em;
+    
     display: flex;
     justify-content: space-between;
     margin: 2em;
@@ -48,7 +59,7 @@ body{
     font-family: "Red Hat Display", sans-serif;
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 2em;
 }
 
@@ -60,7 +71,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url( <img src="https://ik.imagekit.io/mariaudiez/Captura%20de%20pantalla%202025-05-07%20a%20las%200.17.21.png?updatedAt=1746632692463" alt="foto 1">);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -68,10 +78,11 @@ header {
 
 
 h1 {
-    font-family: "Newsreader", serif";
-    font-size: 20vw;
+    font-size: 5rem;
     text-align: center;
     font-weight: 100;
+    margin-top: 20%;
+
 }
 
 footer {
@@ -82,7 +93,6 @@ footer > ul {
     display: flex;
     justify-content: space-between;
     margin: 2em;
-    align-items: center;
 }
 
 footer > ul > li {
@@ -93,12 +103,13 @@ footer > ul > li > a {
     font-family: "Red Hat Display", sans-serif;
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 2em;
 }
 
 footer > ul > li > a:hover {
     text-decoration: underline;
+    padding-block-end: -8%;
 }
 
 
@@ -228,160 +239,10 @@ footer > ul > li > a:hover {
     padding: 0;
 }
 
-@media only screen and (max-width:1024px) {
-    #menu{
-        padding-bottom: 0em;
-    }
 
-    #menu > ul {
-        margin: 2em 2em 0em 2em;
-    }
-    
-}
-
-@media only screen and (max-width:512px) {
-    #menu{
-        padding-bottom: 0em;
-    }
-
-    #menu > ul {
-        margin: 0em 2em 0em 2em;
-    }
-
-    #menu > ul > li > a {
-        font-size: 1em;
-    }
-
-    footer > ul > li > a {
-        font-size: 1em;
-    }
-
-    #titulo img {
-        padding-bottom: 1em;
-    }
-    
-    #informacion {
-        margin: 0em 2em 0em 2em;
-        padding-bottom: 2em;
-    }
-    
-    #informacion h3 {
-        font-size: 1.5em;
-    }
-    
-    #informacion p {
-        font-size: 1em;
-        padding-top: 1em;
-    }
-
-    #redes {
-        margin: 0em 2em 0em 2em;
-        height: 0;
-    }
-
-    #redes > a {
-        font-size: 1em;
-    }
-
-    h2 {
-        padding-bottom: 0.5em;
-        font-size: 1em;
-    }
-
-    .fila {
-        flex-direction: column;
-    }
-    
-    .fila > div img {
-        padding-bottom: 0.2em;
-    }
-    
-    .fila > div p {
-        font-size: 0.5em;
-        padding-bottom: 1.3em;
-    }
-    
-    
-    #graphic_design {
-        margin: 0em 2em 0em 2em;
-    }
-    
-    .fila1 {
-        flex-direction: column;
-    }
-    
-    .fila1 img {
-        width: 100%;
-        padding-bottom: 1em;
-    }
-    
-    .fila2 {
-        flex-direction: column;
-    }
-    
-    .fila2 img {
-        width: 100%;
-        padding-bottom: 1em;
-    }
-    
-    .fila3 {
-        flex-direction: column;
-    }
-    
-    .fila3 img {
-        width: 100%;
-        padding-bottom: 1em;
-    }
-
-    .fila4 {
-        flex-direction: column;
-    }
-    
-    .fila4 img {
-        width: 100%;
-        padding-bottom: 1em;
-    }
-
-    .fila5 {
-        flex-direction: column;
-    }
-    
-    .fila5 img {
-        width: 100%;
-        padding-bottom: 1em;
-    }
-
-    .fila6 {
-        flex-direction: column;
-    }
-    
-    .fila6 img {
-        width: 100%;
-        padding-bottom: 1em;
-    }
-    
-    .fila7 {
-        flex-direction: column;
-    }
-    
-    .fila7 img {
-        width: 100%;
-        padding-bottom: 1em;
-    }
-
-    .fila8 {
-        flex-direction: column;
-    }
-    
-    .fila8 img {
-        width: 100%;
-        padding-bottom: 1em;
-    }
-    
-    .video {
-        width: auto;
-        height: 100vw;
-    }
-    
-}
-
+.end{
+   padding-top: 17%;}
+   
+.negro{
+    color: black;
+   }
