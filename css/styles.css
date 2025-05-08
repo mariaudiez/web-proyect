@@ -21,20 +21,20 @@
 
 body{
     height: 100%;
-    
+    background-color: antiquewhite;
 }
 nav{
     position: absolute;
 }
 
-.homepage{
+.homepage {
     position: absolute;
-    height: auto;
-    width: 120%;
+    height: 100vh;
+    width: auto;
     z-index: -100;
     display: flex;
-    padding: auto;
     position: fixed;
+    top: 0;
 }
 #menu{
     z-index: 9999;
@@ -242,7 +242,7 @@ footer > ul > li > a:hover {
 
 .end{
    padding-top: 17%;}
-   
+
 .negro{
     color: black;
    }
