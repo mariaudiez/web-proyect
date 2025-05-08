@@ -58,7 +58,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('assets/web 1/-71.jpg');
+    background-image: url(assets/web 1/imagen-fondo.jpg);
     background-position: center center;
 }
 
