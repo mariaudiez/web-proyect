@@ -1,16 +1,27 @@
-@font-face {
-    font-family: Inter;
-    src: url("fonts/inter.ttf");
-    font-family: Monsieur;
-    src: url("fonts/MonsieurLaDoulaise-Regular.ttf")
-
+.red-hat-display {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
+
+.newsreader {
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
 }
 
 #menu{
@@ -34,7 +45,7 @@
 }
 
 #menu > ul > li > a {
-    font-family: Inter;
+    font-family: "Red Hat Display", sans-serif;
     font-weight: bold;
     text-decoration: none;
     color: black;
@@ -49,7 +60,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(https://ik.imagekit.io/mariaudiez/Video%20homepage.mov/ik-video.mp4?updatedAt=1746622620890);
+    background-image: url( <img src="https://ik.imagekit.io/mariaudiez/Captura%20de%20pantalla%202025-05-07%20a%20las%200.17.21.png?updatedAt=1746632692463" alt="foto 1">);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -57,7 +68,7 @@ header {
 
 
 h1 {
-    font-family: Monsieur La Doulaise;
+    font-family: "Newsreader", serif";
     font-size: 20vw;
     text-align: center;
     font-weight: 100;
@@ -79,7 +90,7 @@ footer > ul > li {
 }
 
 footer > ul > li > a {
-    font-family: Inter;
+    font-family: "Red Hat Display", sans-serif;
     font-weight: bold;
     text-decoration: none;
     color: black;
@@ -89,145 +100,6 @@ footer > ul > li > a {
 footer > ul > li > a:hover {
     text-decoration: underline;
 }
-
-
-/* PROJECTS */
-
-h2 {
-    font-family: Inter;
-    font-weight: 400;
-    padding-bottom: 1em;
-    font-size: 3vw;
-}
-
-#painting {
-    margin: 2em;
-}
-
-.fila {
-    display: flex;
-    width: 100%;
-}
-
-.fila > div img {
-    width: 97%;
-    padding-bottom: 1em;
-}
-
-.fila > div p {
-    font-family: Inter;
-    font-weight: 400;
-    font-size: 1em;
-    display: flex;
-    justify-content: center;
-}
-
-
-#graphic_design {
-    margin: 2em;
-}
-
-.fila1 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between ;
-}
-
-.fila1 img {
-    width: 49%;
-    padding-bottom: 2em;
-    
-}
-
-.fila2 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between ;
-}
-
-.fila2 img {
-    width: 49%;
-    padding-bottom: 2em;
-    
-}
-.fila3 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between ;
-}
-
-.fila3 img {
-    width: 49%;
-    padding-bottom: 2em;
-    
-}
-
-.fila4 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between ;
-}
-
-.fila4 img {
-    width: 49%;
-    padding-bottom: 2em;
-    
-}
-
-.fila5 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between ;
-}
-
-.fila5 img {
-    width: 49%;
-    padding-bottom: 2em;
-    
-}
-
-
-.fila6 {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.fila6 img {
-    width: 32%;
-    padding-bottom: 2em;
-}
-
-.fila7 {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.fila7 img {
-    width: 32%;
-    padding-bottom: 2em;
-}
-
-.fila8 {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.fila8 img {
-    width: 32%;
-    padding-bottom: 2em;
-}
-
-.video {
-    display: flex;
-    justify-content: center;
-}
-
-
-
-
 
 
 
