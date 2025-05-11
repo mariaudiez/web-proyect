@@ -21,7 +21,7 @@
 
 body{
     height: 100%;
-    background-color: antiquewhite;
+    background-color: white;
 }
 nav{
     position: absolute;
@@ -36,11 +36,44 @@ nav{
     position: fixed;
     top: 0;
 }
-#menu{
+
+#menu-1{
     z-index: 9999;
     position: sticky;
     top: 0;
     padding-bottom: 2em;
+}
+
+#menu-1 > ul {
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    align-items: center;
+}
+
+#menu-1 > ul > li {
+    list-style: none;
+}
+
+#menu-1 > ul > li > a {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+#menu-1 > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+
+#menu{
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    padding-bottom: 1rem;
 }
 
 #menu > ul {
@@ -59,7 +92,7 @@ nav{
     font-family: "Red Hat Display", sans-serif;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 2em;
 }
 
@@ -81,9 +114,78 @@ h1 {
     font-size: 5rem;
     text-align: center;
     font-weight: 100;
-    margin-top: 20%;
+    margin-top: 5%;
+    padding-bottom: 15%;
 
 }
+
+.ARTISTA{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.artists{
+    margin: 30px;
+    gap: 20px;
+}
+
+
+.foto-artista img{
+    height: 800px;
+    width: 100%;
+}
+
+.foto-artista{
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.contacto{
+    padding-bottom: 20px;
+}
+
+.intro-artista{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+.ARTISTA.invertido {
+    flex-direction: row-reverse;
+  }
+  
+.intro-artista h2{
+    font-size: 35px;
+
+}
+
+.info-artista {
+    padding-bottom: 20px;
+    
+}
+
+.info-artista p{
+    width: 100%;
+    
+}
+
+.info-artista2{
+   
+    justify-content: end;
+}
+
+.artista{
+    width: 100%;
+    flex-direction: row;
+  
+
+}
+
 
 footer {
     padding-top: 3em;
@@ -112,7 +214,35 @@ footer > ul > li > a:hover {
     padding-block-end: -8%;
 }
 
+.footer-principal p{
+    margin-top: 0px;
+    font-size: 300px;
+    justify-content: center;
+    
+}
 
+.titulo-footer p{
+    
+    display: flex;
+    padding-bottom: 55px;
+}
+.footer-principal{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.footer-texto{
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+    padding: 25px;
+}
+
+.footer-texto ul li{
+list-style: none;
+}
 
 /* ABOUT */
 #titulo img {
