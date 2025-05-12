@@ -123,13 +123,14 @@ h1 {
 .explicacion{
     width: 100%;
     height: 400px;
-    padding-left: 5%;
+    /* padding-left: 5%; */
     padding-bottom: 100px;
 }
 
 .explicacion_1 {
     display: flex;
     padding-bottom: 10%;
+    padding-left: 5%;
     width: 100%;
 }
 
@@ -153,11 +154,11 @@ h1 {
 .explicacion_2 {
     display: flex;
     padding-bottom: 10%;
+    padding-left: 5%;
     width: 100%;
 }
 
 .explicacion_2 > div {
-    /* display: flex; */
     padding-right: 0;
     width: 25%;
 }
@@ -172,6 +173,73 @@ h1 {
     padding-left: 5%;
     width: 70%;
 }
+
+/* exhibitions */
+
+.Info-Exposicion {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+}
+.Info-Exposicion p{
+    text-align: center;
+    
+    
+
+}
+.Info-Exposicion p:first-child{
+    /* border: 2px black solid; */
+    font-size: 40px;
+    padding-bottom: 2%;
+    Font-family: "Red Hat Display", sans-serif;
+
+}
+.Info-Exposicion p:last-child{
+    font-size: 30px;
+    Font-family: "Newsreader", serif;
+    
+    }
+.imagenes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    padding-top: 3%;
+    
+   
+}
+.imagenes img{
+    width: 350px;
+}
+
+.Exposiciones{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15%;
+}
+
+.division-exposiciones{
+   
+    padding-right: 5%;
+    padding-left: 5%;
+   
+}
+
+.Exposiciones{
+    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -216,16 +284,14 @@ footer > ul > li > a:hover {
     padding-bottom: 55px;
 }
 
-hr{
-    width: 100%;
 
-}
 
 .footer-principal{
     justify-content: center;
     display: flex;
     flex-direction: column;
     padding-right: 5%;
+    padding-left: 5%;
    
 }
 
@@ -239,6 +305,9 @@ hr{
 .footer-texto ul li{
 list-style: none;
 }
+
+
+
 
 /* ABOUT */
 #titulo img {
