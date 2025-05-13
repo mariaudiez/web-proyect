@@ -1,0 +1,13 @@
+# Excluir archivos del sistema
+.DS_Store
+
+# Excluir videos en la carpeta assets/videos
+/assets/videos/*
+
+# Excluir otros archivos temporales o innecesarios
+node_modules/
+dist/
+*.log
+*.tmp
+
+

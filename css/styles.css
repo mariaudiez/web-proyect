@@ -19,6 +19,14 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+nav a {
+    color: var(--primary-color);
+}
 body{
     height: 100vh;
     background-color: white;
