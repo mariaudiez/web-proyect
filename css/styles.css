@@ -94,6 +94,7 @@ nav{
     text-decoration: none;
     color: black;
     font-size: 2em;
+   
 }
 
 #menu > ul > li > a:hover {
@@ -109,21 +110,29 @@ header {
     background-repeat: no-repeat;
 }
 
-h1 {
+.titulo-home h1 {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 20%;
+}
+
+.titulo-pagina {
     font-size: 5rem;
     text-align: center;
     font-weight: 100;
     margin-top: 5%;
-    padding-bottom: 15%;
-
+   padding-bottom: 13%;
+   
 }
 
 
+/* Artists */
 
 .explicacion{
     width: 100%;
     height: 400px;
-    /* padding-left: 5%; */
+    
     padding-bottom: 100px;
 }
 
@@ -131,7 +140,7 @@ h1 {
     display: flex;
     padding-bottom: 10%;
     padding-left: 5%;
-    width: 100%;
+    
 }
 
 .explicacion_1 > div {
@@ -155,17 +164,22 @@ h1 {
     display: flex;
     padding-bottom: 10%;
     padding-left: 5%;
-    width: 100%;
+    /* align-items: stretch; */
 }
 
 .explicacion_2 > div {
+    
     padding-right: 0;
     width: 25%;
+    /* align-items: stretch; */
 }
 
 .explicacion_2 > div img {
     width: 100%;
     border-radius: 2%;
+    height: 100%;
+    /* object-fit: cover; */
+    
 }
 
 .explicacion_2 > div:last-child {
@@ -174,7 +188,7 @@ h1 {
     width: 70%;
 }
 
-/* exhibitions */
+/* Exhibitions */
 
 .Info-Exposicion {
     display: flex;
@@ -206,11 +220,17 @@ h1 {
     gap: 20px;
     width: 100%;
     padding-top: 3%;
-    
+    /* animation-timeline: view();
+    animation: parallax linear 2s both;
+    animation-range: entry 20%; */
+ 
    
 }
+
+
 .imagenes img{
     width: 350px;
+   
 }
 
 .Exposiciones{
@@ -236,10 +256,127 @@ h1 {
 
 
 
+/* About */
+
+.about-info{
+    width: 100%;
+}
+
+.about-info div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+}
+
+.about-info img{
+    width: 600px;
+    height: 600%;
+    padding-bottom: 10%;
+
+}
+
+.about-info .about-texto{
+    flex-direction: column;
+    display: flex;
+    margin-left: 32%;
+    margin-right: 32%;
+    animation: parallax 3s bo;
 
 
+    
+    
+}
 
 
+@keyframes parallax {
+
+    from{
+
+        
+
+        opacity: 0%; 
+
+        scale: 0;
+
+    }
+
+    to {
+
+        
+
+        opacity: 100%;
+
+        scale: 1
+
+    }
+
+}
+.about-info .about-texto p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 36%;
+    height: 60%;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.about-info .about-texto .info-redes{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    
+    padding-bottom: 10%;
+}
+
+.about-info .about-texto p a{
+    text-decoration: none;
+color: black;
+}
+
+
+/* Opera Gallery */
+
+/* .operagallery-responsive{
+    flex-wrap: wrap;
+    display: flex;
+} */
+.body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  
+  .contenedor {
+    width: 20%;
+    margin: 5%;
+    
+    
+  }
+  
+  .info-arriba {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .imagen {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0%;
+  }
+  
+  .info-abajo {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
 
 
 
@@ -309,52 +446,8 @@ list-style: none;
 
 
 
-/* ABOUT */
-#titulo img {
-    height: 50%;
-    width: 100%;
-    padding-bottom: 2em;
-}
+/* FORMULARIO CONTACTO */
 
-#informacion {
-    font-family: Inter;
-    font-weight: 400;
-    margin: 2em;
-    padding-bottom: 3em;
-}
-
-#informacion h3 {
-    font-size: 3vw;
-}
-
-#informacion p {
-    font-size: 1.5vw;
-    padding-top: 1.5em;
-}
-
-
-/* CONTACTO  */
-#redes {
-    height: 4em;
-    display: flex;
-    justify-content: space-between;
-    margin: 2em;
-    flex-direction: row;
-}
-
-#redes > a {
-    align-items: center;
-    font-family: Inter;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    font-size: 2em;
-}
-
-
-#redes > a:hover {
-    text-decoration: underline;
-}
 
 .formulario div:first-child div{
     border: 1px solid black;
@@ -429,6 +522,9 @@ list-style: none;
     font-weight: 400;
 }
 
+
+/* MAPA  */
+
 .map {
     width: 100%;
     padding: 0;
@@ -436,8 +532,177 @@ list-style: none;
 
 
 .end{
-   padding-top: 17%;}
+   padding-top: 20%;}
 
 .negro{
     color: black;
    }
+
+
+/* 404 */
+
+
+.error  {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-image: url('https://ik.imagekit.io/mariaudiez/Captura%20de%20pantalla%202025-05-07%20a%20las%200.17.32.png?updatedAt=1747000475682'); /* Cambia por tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .contenido {
+    background: rgba(0, 0, 0, 0.5); /* Oscurece para que se lea el texto */
+    padding: 40px;
+    border-radius: 16px;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .boton {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .boton:hover {
+    background-color: #ddd;
+  }
+  
+  /* Responsive */
+/* 
+  @media(max-width:580px){
+    footer {
+        padding-top: 3em;
+    }
+    
+    footer > ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 2em;
+    }
+    
+    footer > ul > li {
+        list-style: none;
+    }
+    
+    footer > ul > li > a {
+        font-family: "Red Hat Display", sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    footer > ul > li > a:hover {
+        text-decoration: underline;
+        padding-block-end: -8%;
+  }
+
+ 
+#menu-1{
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    padding-bottom: 1.5em;
+}
+
+#menu-1 > ul {
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5em;
+    align-items: center;
+}
+
+#menu-1 > ul > li {
+    list-style: none;
+}
+
+#menu-1 > ul > li > a {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+#menu > ul > li > a {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+   
+}
+
+  }
+
+  @media(max-width:1500px){
+    .footer-principal p{
+        margin-top: 0px;
+        font-size: 100px;
+        justify-content: center;
+        
+    }
+    .footer-texto{
+        display: flex;
+        flex-direction: row;
+        gap: 500px;
+        padding-bottom: 35px;
+    } 
+  }
+
+  @media(max-width:1220px){
+  
+    .footer-texto{
+        display: flex;
+        flex-direction: row;
+        gap: 200px;
+        padding-bottom: 35px;
+    } 
+  }
+
+  @media(max-width:720px){
+    .footer-principal p{
+        margin-top: 0px;
+        font-size: 40px;
+        justify-content: center;
+        
+    }
+    .footer-texto{
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        padding-bottom: 35px;
+    } 
+  }
+
+ 
+
+  
