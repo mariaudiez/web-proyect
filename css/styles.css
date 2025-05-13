@@ -539,14 +539,16 @@ list-style: none;
    }
 
 
-/* 404 */
+
+
+   /* 404 */
 
 
 .error  {
     margin: 0;
     padding: 0;
     font-family: 'Helvetica Neue', sans-serif;
-    background-image: url('https://ik.imagekit.io/mariaudiez/Captura%20de%20pantalla%202025-05-07%20a%20las%200.17.32.png?updatedAt=1747000475682'); /* Cambia por tu imagen */
+    background-image: url('https://ik.imagekit.io/mariaudiez/Captura%20de%20pantalla%202025-05-07%20a%20las%200.17.32.png?updatedAt=1747000475682');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -559,7 +561,7 @@ list-style: none;
   }
   
   .contenido {
-    background: rgba(0, 0, 0, 0.5); /* Oscurece para que se lea el texto */
+    background: rgba(0, 0, 0, 0.5); 
     padding: 40px;
     border-radius: 16px;
   }
@@ -594,8 +596,10 @@ list-style: none;
     background-color: #ddd;
   }
   
+  
+  
   /* Responsive */
-/* 
+ 
   @media(max-width:580px){
     footer {
         padding-top: 3em;
@@ -663,7 +667,7 @@ list-style: none;
 
   }
 
-  @media(max-width:1500px){
+   @media(max-width:1500px){
     .footer-principal p{
         margin-top: 0px;
         font-size: 100px;
@@ -705,4 +709,4 @@ list-style: none;
 
  
 
-  
+ 
