@@ -4,7 +4,7 @@
 Este es un proyecto en donde he realizado la página web de una galería de arte ya existente pero modificándola para que incluya a otros artistas. Me sirve de ayuda para otro proyecto de la universidad.
 
 ## Demo en vivo
-Puedes ver la demo en vivo aquí: [https://mariaudiez.github.io/web-proyect/portfolio/](https://mariaudiez.github.io/web-proyect/portfolio/)
+Puedes ver la demo en vivo aquí: [https://mariaudiez.github.io/web-proyect/OperaGallery/](https://mariaudiez.github.io/web-proyect/OperaGallery/)
 
 ## Cosas a tener en cuenta
 Debido a que para el primer proyecto cree la web a nivel raíz con un index.html, este proyecto actual ha sido creado en la carperta "Opera Gallery" a nivel raíz; esta a su vez está enlazada con el css styles.css (no confundir con el style.css que es el del primer trabajo, enlazado con el index.html que se encuentra a nivel raíz).
